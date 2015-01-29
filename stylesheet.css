@@ -1,3 +1,74 @@
+body{
+	background-image:url('http://www.nasa.gov/sites/default/files/cygx1_ill.jpg');
+	background-size:cover;
+}
 #image{
-	margin:20px 50px 10px 50%;
+
+}
+#image img{
+	border-radius:25%;
+	margin-top:20px;
+}
+.info{
+	padding-left:20px;
+	margin-left:20px;
+	margin-right:60%;
+	border-radius:10px;
+	background-color:grey;
+	font-size:1.5em;
+	opacity:0.6;
+}
+.container {
+	float:left;
+	padding;2px 20px 2px 20px;
+}
+
+.menu {
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	display:inline;
+}
+
+#menu-box{
+	height: 30px;
+	background-color: #33CCFF;
+	text-align: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 20px;
+	padding-right: 30px;
+	padding-left: 10px;
+	padding: 0px;
+}
+.menu > li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.menu a {
+	color: white;
+}
+#dropdown{
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	display:inline;
+}
+.dropdown-toggle{
+}
+.dropdown-mods{
+	padding-left: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 25px;
+}
+.dropdown-mods li {
+	background-color:grey;
+	padding
+}
+#last{
+	background-color:grey;
+	border-bottom-right-radius:25px;
+}
+.dropdown-mods li a {
+	color: white;
+	font-weight: 300;
 }
