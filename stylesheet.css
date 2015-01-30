@@ -2,9 +2,6 @@ body{
 	background-image:url('http://www.nasa.gov/sites/default/files/cygx1_ill.jpg');
 	background-size:cover;
 }
-#image{
-
-}
 #image img{
 	border-radius:25%;
 	margin-top:20px;
@@ -21,15 +18,14 @@ body{
 .container {
 	float:left;
 	padding;2px 20px 2px 20px;
+	font-size:20px;
 }
-
 .menu {
 	float: left;
 	list-style: none;
 	margin-top: 5px;
 	display:inline;
 }
-
 #menu-box{
 	height: 30px;
 	background-color: #33CCFF;
